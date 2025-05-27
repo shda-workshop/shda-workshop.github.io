@@ -3,18 +3,62 @@
         <title>SHDA Workshop 2025 -- Home</title>
     </head>
     <body>
-        <p style="font-size:20px">The second Workshop on Software and Hardware Co-design of Deep Learning Systems on Future Architectures (SHDA) will be held in conjunction with ACM International Conference on Supercomputing (ICS 2025) in Salt Lake City, UT, USA on June 8, 2025.</p>
+        <p style="font-size:20px">The second Workshop on Software and Hardware Co-design of Deep Learning Systems on Future Architectures (SHDA) will be held in conjunction with <a href="https://hpcrl.github.io/ICS2025-webpage/home.html">ACM International Conference on Supercomputing (ICS 2025)</a> in Salt Lake City, UT, USA on June 8, 2025.</p>
         <p style="font-size:20px">With the recent advancements in artificial intelligence, deep learning systems and applications have become a driving force in multiple transdisciplinary domains. This evolution has been supported by the rapid improvements of advanced processor, accelerator, memory, storage, interconnect and system architectures, including architectures based on future and emerging hardware (e.g., quantum, superconducting, photonic, neuromorphic). However, existing research is focused on hardware accelerators, deep learning systems and applications separately, but the co-design among them is largely underexplored. To develop high-performance deep learning systems on advanced accelerators, our workshop will focus on the following three important topics: </p>    
         <ul style="font-size:20px">
             <li>adaptive deep learning model exploration and training for target inference devices based on customized user demands, </li>
             <li>joint optimization of deep learning model design with future accelerator architecture/compiler design, and </li>
             <li>how to leverage state-of-the-art computational functionalities from advanced accelerators for application optimization. </li>
         </ul>
-        <p style="font-size:20px"> The scope of the workshop will not be limited to the above topics and the organizers will consider other abstracts that are closely related.</p>
-        <h2><a name="Deadlines">Important Dates</a></h2>
+        <p style="font-size:20px"> This year's organizing committee is pleased to present the agenda for this half-day workshop.</p>
+        <h2><a name="Agenda">SHDA Agenda June 8, 2025</a></h2>
         <ul style="font-size:20px">
-            <li>Submission deadline: <s>March 31, 2025 (AoE)</s> April 11, 2025 (AoE)</li>
-            <li>Author notification: <s>April 7, 2025 (AoE)</s> May 2, 2025 (AoE)</li>
+            <li>1:00 PM -- 1:05 PM: Welcome to ICS Workshop SHDA 2025 </li>
+	    <li>1:05 PM -- 1:20 PM: <b> Seung-Hwan Lim and Shruti Kulkarni (Oak Ridge National Laboratory) </b>
+		<br/>
+		<i> Overview: Scope, Vision, Examples from ORNL </i>
+		<br/>
+	    </li>
+	    <br/>
+            <li>1:20 PM -- 1:25 PM: Invited Speaker 1 Setup </li>
+	    <li>1:25 PM -- 1:55 PM: <b> Weilu Gao (University of Utah) </b>
+		<br/>
+		<i> Hardware-Software Co-design of Free-Space Optical Machine Learning Systems</i>
+		<br/>
+		Machine learning (ML) algorithms have seen unprecedented performance in broad application domains, such as imaging science and technology, the discovery of materials and molecules, and chip and circuit design. However, executing ML algorithms on hardware requires substantial computational and memory resources and consumes significant energy. Recently, free-space optical systems have emerged as high-throughput and energy-efficient ML hardware accelerators thanks to the parallelism and low static energy consumption of photons. In this talk, I will present a few of our recent works on the hardware-software co-design of two representative free-space ML systems, optical matrix-vector multipliers (OMVMs) and diffractive optical neural networks (DONNs). Specifically, for OMVMs, I will present how a universal calibration algorithm can be designed and deployed to configure non-uniform hardware to perform accurate calculations. Further, I will demonstrate an end-to-end co-design framework of OMVM to optimize device structures from system performance driven by reinforcement learning. For DONNs, I will discuss our development of a co-design stack of all-optical reconfigurable hardware and corresponding compiler software, and its deployment for predicting material/molecule properties.
+	    </li>
+            <br/>
+            <li>1:55 PM -- 2:00 PM: Invited Speaker 2 Setup </li>
+	    <li>2:00 PM -- 2:30 PM: <b> Suraj Honnuraiah (Harvard Medical School) </b>
+		<br/>
+		<i> Biologically Realistic Computational Primitives of Neocortex Implemented on Neuromorphic Hardware Improve Vision Transformer Performance </i>
+		<br/>
+		We present an experimentally constrained, biophysically grounded model of neocortical layers 2–3 that performs soft winner-take-all (sWTA) computation through the coordinated dynamics of four major inhibitory neuron classes: PV, SST, VIP, and LAMP5. This circuit supports gain modulation, signal restoration, and context-dependent multistability, and can function as a two-state neural state machine relevant to working memory. Using a novel parameter mapping technique, we configured IBM’s TrueNorth chip to reproduce these motifs with high fidelity, demonstrating hardware-level implementation of biologically inspired dynamics. Incorporating the sWTA module as a preprocessing layer in a Vision Transformer improves generalization on MNIST, suggesting a mechanism akin to zero-shot learning. Our work establishes a scalable software-hardware co-design pipeline that integrates mechanistic neuroscience, neuromorphic substrates, and machine learning—offering a roadmap for next-generation interpretable NeuroAI systems deployable on platforms like Loihi2 and Northpole.
+	    </li>
+            <br/>
+            <li>2:30 PM -- 2:35 PM: Contributed Speaker 1 Setup </li>
+	    <li>2:35 PM -- 2:55 PM: <b> William Fishell (Columbia University) </b>
+		<br/>
+		<i> SNNs Are Not Transformers (Yet) </i>
+		<br/>
+		Spiking Neural Networks (SNNs) exploit sparse spiking dynamics to deliver energy-efficient inference on low-power neuromorphic hardware, but—apart from promising demonstrations like SpikeGPT—they continue to lag behind Transformer-based models in language modeling tasks. Because next-token prediction underpins reasoning and multimodal capabilities, understanding SNN performance on such tasks is essential for unlocking their neuromorphic advantages. We use the Probably Approximately Correct (PAC) learning framework to analyze the sample efficiency of SNNs in modeling long-range dependencies—non-sequential predictive relationships in sequences. We derive a global Lipschitz constant for our SNN hypothesis class, bounding how much outputs (and thus loss) can change in response to input perturbations. This allows us to translate function-space coverings into generalization guarantees and express the resulting sample complexity directly as a function of sequence length.
+	    </li>
+            <br/>
+            <li>2:55 PM -- 3:15 PM: Coffee Break and Contributed Speaker 2 Setup </li>
+	    <li>3:15 PM -- 3:35 PM: <b> Muhammad Rashedul Haq Rashed (The University of Texas at Arlington) </b>
+		<br/>
+		<i> Software-Hardware Co-Optimization of In-Memory Computing Systems for Deep Learning Acceleration</i>
+		<br/>
+		Processing-in-memory (PIM) has emerged as a promising strategy to accelerate data-intensive applications such as deep learning workloads. However, PIM systems are still in their early stages, facing challenges in robustness, scalability, and endurance. This talk presents software/hardware co-optimization techniques to enable energy-efficient and high-assurance computation on PIM platforms.
+	    </li>
+            <br/>
+            <li>3:35 PM -- 3:40 PM: Invited Speaker 3 Setup </li>
+	    <li>3:40 PM -- 4:10 PM: TBD </li>
+            <br/>
+            <li>4:10 PM -- 4:15 PM: Panel Setup </li>
+	    <li>4:15 PM -- 4:55 PM: <b> Panel Discussion with Full Q & A (Every Speaker) </b> </li>
+	    <br/>
+	    <li>4:55 PM -- 5:00 PM: Workshop Conclusion and Farewell </li>
         </ul>
     </body>
 </html>
