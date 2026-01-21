@@ -17,61 +17,69 @@
 			<li> For submission information, please see 'Call For Papers' menu link on the left. </li>
 		</ul>
 		
-        <!-- <p style="font-size:20px"> This year's organizing committee is pleased to present the agenda for this half-day workshop.</p>
-        <h2><a name="Agenda">SHDA Agenda June 8, 2025 (Location: WEB 2230) </a></h2>
-	<p style="font-size:20px">Submit your questions at this link: <a href="https://app.sli.do/event/aCkr6xTfRgGjRzm6LU2LYf">Slido Panel Questions</a></p>
+        <p style="font-size:20px"> This year's organizing committee is pleased to present the agenda for this half-day workshop.</p>
+        <h2><a name="Agenda">SHDA Agenda (Monday, January 26, 2026)</a></h2>
+		<!--
+		<p style="font-size:20px">Submit your questions at this link: <a href="https://app.sli.do/event/aCkr6xTfRgGjRzm6LU2LYf">Slido Panel Questions</a></p>
+		-->
         <ul style="font-size:20px">
-            <li>1:00 PM -- 1:05 PM: Welcome to ICS Workshop SHDA 2025 </li>
-	    <li>1:05 PM -- 1:20 PM: <b> Seung-Hwan Lim and Shruti Kulkarni (Oak Ridge National Laboratory) </b>
+            <li>1:30 PM -- 1:35 PM: Welcome to SCA/HPCAsia Workshp SHDA 2026 </li>
+	    <li>1:30 PM -- 1:35 PM: <b> Seung-Hwan Lim and Elaine Wong (Oak Ridge National Laboratory) </b>
 		<br/>
 		<i> Overview: Scope, Vision, Examples from ORNL </i>
 		<br/>
 	    </li>
 	    <br/>
-            <li>1:20 PM -- 1:25 PM: Invited Speaker 1 Setup </li>
-	    <li>1:25 PM -- 1:55 PM: <b> Weilu Gao (University of Utah) </b>
+
+		<li>1:35 PM -- 2:20 PM: Invited Speaker 1</li>
+	    <li>1:35 PM -- 2:20 PM: <b> John Shalf (Lawrence Berkeley National Laboratory) </b>
 		<br/>
-		<i> Hardware-Software Co-design of Free-Space Optical Machine Learning Systems</i>
+		<i> Research Overview of LBNL's CS and Data Department</i>
+		<!--
 		<br/>
-		Machine learning (ML) algorithms have seen unprecedented performance in broad application domains, such as imaging science and technology, the discovery of materials and molecules, and chip and circuit design. However, executing ML algorithms on hardware requires substantial computational and memory resources and consumes significant energy. Recently, free-space optical systems have emerged as high-throughput and energy-efficient ML hardware accelerators thanks to the parallelism and low static energy consumption of photons. In this talk, I will present a few of our recent works on the hardware-software co-design of two representative free-space ML systems, optical matrix-vector multipliers (OMVMs) and diffractive optical neural networks (DONNs). Specifically, for OMVMs, I will present how a universal calibration algorithm can be designed and deployed to configure non-uniform hardware to perform accurate calculations. Further, I will demonstrate an end-to-end co-design framework of OMVM to optimize device structures from system performance driven by reinforcement learning. For DONNs, I will discuss our development of a co-design stack of all-optical reconfigurable hardware and corresponding compiler software, and its deployment for predicting material/molecule properties.
+		abstract
+		-->
 	    </li>
-            <br/>
-            <li>1:55 PM -- 2:00 PM: Invited Speaker 2 Setup </li>
-	    <li>2:00 PM -- 2:30 PM: <b> Suraj Honnuraiah (Harvard Medical School) </b>
 		<br/>
-		<i> Biologically Realistic Computational Primitives of Neocortex Implemented on Neuromorphic Hardware Improve Vision Transformer Performance </i>
+        
+		<li>2:20 PM -- 2:45 PM: Contributed Talk </li>
+	    <li>2:20 PM -- 2:45 PM: <b> Shunta Furuichi (University of Tokyo) </b>
 		<br/>
-		We present an experimentally constrained, biophysically grounded model of neocortical layers 2–3 that performs soft winner-take-all (sWTA) computation through the coordinated dynamics of four major inhibitory neuron classes: PV, SST, VIP, and LAMP5. This circuit supports gain modulation, signal restoration, and context-dependent multistability, and can function as a two-state neural state machine relevant to working memory. Using a novel parameter mapping technique, we configured IBM’s TrueNorth chip to reproduce these motifs with high fidelity, demonstrating hardware-level implementation of biologically inspired dynamics. Incorporating the sWTA module as a preprocessing layer in a Vision Transformer improves generalization on MNIST, suggesting a mechanism akin to zero-shot learning. Our work establishes a scalable software-hardware co-design pipeline that integrates mechanistic neuroscience, neuromorphic substrates, and machine learning—offering a roadmap for next-generation interpretable NeuroAI systems deployable on platforms like Loihi2 and Northpole.
+		<i> A Unidirectional Two-Compartment Neuron Circuit with On-chip STDP learning </i>
+		<!--
+		<br/>
+		abstract
+		-->
 	    </li>
-            <br/>
-            <li>2:30 PM -- 2:35 PM: Contributed Speaker 1 Setup </li>
-	    <li>2:35 PM -- 2:55 PM: <b> William Fishell (Columbia University) </b>
 		<br/>
-		<i> SNNs Are Not Transformers (Yet) </i>
+
+		<li>2:45 PM -- 3:15 PM: Afternoon Break </li>
 		<br/>
-		Spiking Neural Networks (SNNs) exploit sparse spiking dynamics to deliver energy-efficient inference on low-power neuromorphic hardware but—apart from promising demonstrations like Spike-GPT—continue to lag behind Transformer-based models in auto-regressive next token tasks. To harness neuromorphic hardware’s low-power potential for reasoning and LLMs, we first need to understand why spiking neural networks—even transformer-inspired variants—trail standard transformers at modeling long-range dependencies. Using the Probably Approximately Correct (PAC)learning framework to determine the sample efficiency of SNNs in modeling long-range dependencies on-sequential predictive relationships in sequence modeling- we derive the first covering-number bound analysis for SNNs focused on the Non-Leaky Integrate & Fire (nLIF) model, leveraging recent research in causal-pieces and local Lipschitz continuity in SNNs. These results are extended to multi token next-token models and illustrate that the sample complexity of nLIF models scales quadratically with sequence length T. The architectural factors that drive the O(T2) rise in Sample complexity occur across a SNN architectures. Consequently, spiking networks demand far more data to learn long-range dependencies. Constraining neuronal activity growth appears to be crucial for improving long-range modeling efficiency. These findings therefore motivate future work that harnesses biological mechanisms—particularly lateral inhibition. Our findings pinpoint uncontrolled activity growth as a key barrier to larger adoption of SNNs in language modeling and chart a biologically grounded path toward closing the gap with Transformers in this domain.
+
+		<li>3:15 PM -- 3:50 PM: Invited Speaker 2</li>
+	    <li>3:15 PM -- 3:50 PM: <b> Lukas Burgholzer (Technical University of Munich, Munich Quantum Software Company) </b>
+		<br/>
+		<i> Automated Approaches for Quantum Software-Hardware Co Design </i>
+		<!--
+		<br/>
+		abstract
+		-->
 	    </li>
-            <br/>
-            <li>2:55 PM -- 3:15 PM: Coffee Break and Contributed Speaker 2 Setup </li>
-	    <li>3:15 PM -- 3:35 PM: <b> Muhammad Rashedul Haq Rashed (The University of Texas at Arlington) </b>
 		<br/>
-		<i> Software-Hardware Co-Optimization of In-Memory Computing Systems for Deep Learning Acceleration</i>
+
+		<li>3:50 PM -- 4:25 PM: Invited Speaker 3</li>
+	    <li>3:50 PM -- 4:25 PM: <b> Boma A. Adhi (RIKEN) </b>
 		<br/>
-		Processing-in-memory (PIM) has emerged as a promising strategy to accelerate data-intensive applications such as deep learning workloads. However, PIM systems are still in their early stages, facing challenges in robustness, scalability, and endurance. This talk presents software/hardware co-optimization techniques to enable energy-efficient and high-assurance computation on PIM platforms.
+		<!--
+		<i> title </i>
+		<br/>
+		abstract
+		-->
 	    </li>
-            <br/>
-            <li>3:35 PM -- 3:40 PM: Invited Speaker 3 Setup </li>
-	    <li>3:40 PM -- 4:10 PM: <b> Wei Niu (University of Georgia) </b>
 		<br/>
-		<i> Compiler and Architecture-Aware Optimizations for Real-Time Execution of Large Models on Mobile </i>
+
+		<li>4:25 PM -- 4:30 PM: Workshop Conclusion and Farewell </li>
 		<br/>
-		Deploying large Transformer models on resource-constrained devices, such as mobile platforms, presents significant challenges due to their limited computational and storage capabilities. This talk explores optimizations on enabling real-time execution of such models through compiler and architecture-aware optimizations. We focus on strategies including compression-compilation co-design, operator fusion, layout selection, and low-level instruction tuning tailored for mobile platforms. By aligning model architectures with hardware capabilities, our approach aims to facilitate efficient and real-time inference on devices with limited resources.
-	    </li>
-            <br/>
-            <li>4:10 PM -- 4:15 PM: Panel Setup </li>
-	    <li>4:15 PM -- 4:55 PM: <b> Panel Discussion with Full Q & A (Every Speaker) </b> </li>
-	    <br/>
-	    <li>4:55 PM -- 5:00 PM: Workshop Conclusion and Farewell </li>
-        </ul> -->
+
     </body>
 </html>
