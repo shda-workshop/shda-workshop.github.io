@@ -24,7 +24,7 @@
 		-->
         <ul style="font-size:20px">
             <li>1:30 PM -- 1:35 PM: Welcome to SCA/HPCAsia Workshp SHDA 2026 </li>
-	    <li>1:30 PM -- 1:35 PM: <b> Seung-Hwan Lim and Elaine Wong (Oak Ridge National Laboratory) </b>
+	    <li>1:30 PM -- 1:35 PM: <b> Seung-Hwan Lim, Elaine Wong (Oak Ridge National Laboratory) and Masaaki Kondo (RIKEN)</b>
 		<br/>
 		<i> Overview: Scope, Vision, Examples from ORNL </i>
 		<br/>
@@ -35,10 +35,8 @@
 	    <li>1:35 PM -- 2:20 PM: <b> John Shalf (Lawrence Berkeley National Laboratory) </b>
 		<br/>
 		<i> Research Overview of LBNL's CS and Data Department</i>
-		<!--
 		<br/>
-		abstract
-		-->
+		As energy becomes the dominant constraint on computing - from exascale HPC to hyperscale AI - continued performance growth will depend less on pushing general-purpose digital hardware and more on exploiting the right physics and the right abstractions for each problem. This talk argues that the next wave of efficiency will come from embracing analogous computing: designing computing systems by mapping a target problem onto another system—algorithmic, physical, or even structural/topological—that naturally expresses the computation with far less energy. We begin by grounding the discussion in analog computing, where continuously variable physical quantities represent and solve problems directly, avoiding the overheads of discretization, data movement, and strict Boolean logic. We then broaden the lens to analogous computing, which asks a more general question: what system can mimic the behavior we need, and what is the most efficient way to harness it? This framing unifies approaches that are often treated separately—neuromorphic systems inspired by biology, in-memory and mixed-signal accelerators that "compute where the data lives," and emerging architectures that exploit physical dynamics or geometric structure as part of the computation. The core thesis is that efficiency at scale requires three properties: specialization (matching workloads to the most natural computational substrate), modularity (composable building blocks that can be reused across applications and technology generations), and scalability (architectural patterns that preserve efficiency when integrated into large systems). The talk closes with a set of practical design principles and evaluation questions—how to identify promising analogies, how to bound error and verify correctness, and how to compose heterogeneous modules into robust, scalable platforms for the energy-limited future.
 	    </li>
 		<br/>
         
@@ -46,10 +44,8 @@
 	    <li>2:20 PM -- 2:45 PM: <b> Shunta Furuichi (University of Tokyo) </b>
 		<br/>
 		<i> A Unidirectional Two-Compartment Neuron Circuit with On-chip STDP learning </i>
-		<!--
 		<br/>
-		abstract
-		-->
+		Most neuromorphic chips implement the single-compartment point neuron model where synapse circuits connect directly to a leaky integrate and fire (LIF) soma circuit. However, when using a biologically plausible soma circuit (e.g., Hodgkin-Huxley neuron model), an interface circuitry, such as a current conveyor circuit, is needed to transmit synaptic current to the soma circuit. This is especially true for ultra-low power neuron circuits, where membrane capacitance is on the order of 20 fF. This necessity arises because the parasitic capacitance and leakage current caused by fabrication mismatch and second-order effects of the output transistors in the synapse circuits can disturb the spiking dynamics of the soma circuit if connected without an interface. Using an interface circuit to isolate soma's membrane capacitor from synapses resolves this issue. We propose to use a unidirectional resistor (a transconductance circuit) to connect the synapse and soma circuits instead of conventional current conveyor circuits. Using a biologically plausible spike pattern detection model, we show that the on-chip STDP learning performance of the proposed unidirectional two-compartment neuron circuit is similar to a single-compartment circuit (with a current conveyor as an interface) and additionally, it is more power-efficient and biologically plausible. The chip is fabricated in the Taiwan Semiconductor Manufacturing Company (TSMC) 250 nm technology node and comprises a single neuron circuit.
 	    </li>
 		<br/>
 
@@ -60,10 +56,8 @@
 	    <li>3:15 PM -- 3:50 PM: <b> Lukas Burgholzer (Technical University of Munich, Munich Quantum Software Company) </b>
 		<br/>
 		<i> Automated Approaches for Quantum Software-Hardware Co Design </i>
-		<!--
 		<br/>
-		abstract
-		-->
+		The rapid diversification of quantum hardware platforms and software toolchains has made quantum computing an increasingly heterogeneous ecosystem-one in which effective software-hardware co design is both essential and still largely unexplored. In this talk, I will discuss our recent efforts within the Munich Quantum Toolkit (MQT) to build automated, data driven workflows that help navigate this complexity and illuminate what meaningful co design might look like for quantum systems. I will highlight two complementary directions: the MQT Predictor, which uses reinforcement learning and supervised machine learning to automatically select suitable quantum devices and construct optimized compiler flows; and our compiler and hardware modeling work for neutral atom architectures, where close collaboration with experimentalists enables systematic exploration of architectural choices and routing strategies. Together, these efforts illustrate emerging principles for quantum software-hardware co design—automation, hardware aware abstractions, and learned guidance—and point toward open questions on how deep learning can further support quantum workflow optimization across diverse quantum technologies.
 	    </li>
 		<br/>
 
